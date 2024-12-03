@@ -115,8 +115,6 @@ body {
     margin: 12px;
 }
 
-
-
 .quoteSection {
     flex-direction: column;
     background-color: var(--secondary);
@@ -142,11 +140,11 @@ body {
 }
 
 .ctaSection {
-    width: 100%;
+    width: 92%;
     background-color: var(--background);
     align-items: center;
     justify-content: center;
-    padding: 48px;
+    padding: 4%;
 }
 
 .ctaBox {
@@ -185,14 +183,15 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-color: var(--background);
     color: var(--text);
-    padding: 24px;
 }
 
 button {
-    background-color: var(--accent);
-    color: var(--primary);
+    background-color: var(--secondary);
+    color: var(--text);
+    border-color: var(--accent);
     border-radius: 8px;
     padding-top: 10px;
     padding-bottom: 10px;
