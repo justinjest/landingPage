@@ -1,0 +1,201 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --text: #dad9e4;
+    --background: #1a0a0a;
+    --primary: #5b1515;
+    --secondary: #971b1b;
+    --accent: #e69533;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* all sections have some similiarity */
+.section {
+    display: flex;
+    padding-bottom: 48px;
+}
+
+/* this selector selects all divs inside of .flex-container */
+.flex-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text);
+    text-align: left;
+
+}
+
+.headerSection {
+    width: 92%;
+    background-color: var(--background);
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.headerLink {
+    flex: 1;
+    font-size: 18px;
+}
+
+.headerLogo {
+    flex: 4;
+    font-size: 24px;
+    justify-content: left;
+}
+
+.heroSection {
+    width: 92%;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: var(--background);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heroText {
+    flex-direction: column;
+    padding: 0;
+}
+
+.heroHeader {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px;
+    justify-content: left;
+}
+
+.imagePlaceholder {
+    width: 600px;
+    height: 200px;
+    /* Image width */
+    /* Image height */
+    background-color: var(--primary);
+    /* Placeholder color */
+    overflow: hidden;
+    margin: 4%;
+}
+
+.imageSection {
+    flex-direction: column;
+    background-color: var(--background);
+    color: var(--text);
+    width: 92%;
+    padding: 4%;
+}
+
+.imageHeader {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 24px;
+}
+
+.imageGroup {
+    width: 80%;
+    display: flex;
+    flex-direction: column
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    background-color: var(--accent);
+    border: #1f2937;
+    border-radius: 4%;
+    margin: 12px;
+}
+
+
+
+.quoteSection {
+    flex-direction: column;
+    background-color: var(--secondary);
+    width: 92%;
+    padding: 4%;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: var(--accent);
+    width: 80%;
+    text-align: center;
+}
+
+.quoteAtt {
+    color: var(--accent);
+    font-size: 36px;
+    font-style: bold;
+    align-self: flex-end;
+    text-align: right;
+}
+
+.ctaSection {
+    width: 92%;
+    background-color: var(--background);
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+}
+
+.ctaBox {
+    background-color: var(--secondary);
+    display: flex;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 12px;
+}
+
+.ctaText {
+
+    flex-direction: column;
+}
+
+.ctaH1 {
+    color: var(--text);
+    font-size: 36px;
+    font-style: bold;
+    align-self: flex-start;
+}
+
+.ctaBod {
+    color: var(--text);
+}
+
+.ctaButton {
+    flex: 1;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+    color: var(--text);
+    padding: 24px;
+}
+
+button {
+    background-color: var(--accent);
+    color: var(--primary);
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
