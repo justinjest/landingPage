@@ -142,7 +142,7 @@ body {
 }
 
 .ctaSection {
-    width: 92%;
+    width: 100%;
     background-color: var(--background);
     align-items: center;
     justify-content: center;
