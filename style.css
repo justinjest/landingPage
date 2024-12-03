@@ -7,6 +7,11 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: var(--text);
+}
+
 :root {
     --text: #dad9e4;
     --background: #1a0a0a;
@@ -178,26 +183,26 @@ body {
     flex: 1;
 }
 
-footer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: var(--background);
-    color: var(--text);
-}
 
 .locationSection {
     height: 100%;
     background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
 }
 
 .addresses {
     color: var(--text);
     flex-direction: column;
-    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
 }
+
+#map {
+    height: 400px;
+    width: 80%;
+}
+
 
 button {
     background-color: var(--secondary);
@@ -208,4 +213,16 @@ button {
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--background);
+    color: var(--text);
 }
