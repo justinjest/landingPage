@@ -55,9 +55,19 @@ body {
 }
 
 .headerLogo {
-    flex: 4;
-    font-size: 24px;
+    flex: 1;
     justify-content: left;
+    width: 100px;
+    height: auto;
+}
+
+.headerLinkGroup {
+    display: flex;
+    flex: 4;
+    margin: 0;
+    padding: 0;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .heroSection {
